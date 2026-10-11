@@ -105,7 +105,6 @@ int firstWeekdayOf(int year, int month)
  *   · 날짜가 없는 칸은 공백 4개("    ")   ← 1일 앞과 말일 뒤
  * 함정: 안쪽 반복은 7칸을 끝까지 돕니다. 날짜가 없다고 건너뛰면 칸이 밀립니다.
  *       ─ 빈 칸을 찍고 「그 칸은 여기까지」로 넘어가는 방법이 있습니다. */
-    /* ── [TODO 요구사항 4] 달력 격자 출력 ───────────────────────────── */
 void printCalendar(int firstWeekday, int days)
 {
     int currentDay = 1;
